@@ -39,6 +39,22 @@ body {
    
 }
 
+.cart-count {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: center;
+    
+}
+
+.disabled {
+    background-color: grey;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -47,6 +63,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.product-category {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
